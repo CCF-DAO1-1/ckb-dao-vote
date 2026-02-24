@@ -1,0 +1,1 @@
+49ec5c2b343def2c582e9637002b8710594c12baceb46ae04b6c27f9bb2f9a3f  build/release/ckb-dao-vote

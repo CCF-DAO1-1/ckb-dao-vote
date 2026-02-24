@@ -1,0 +1,13 @@
+{
+  "cell_recipes": [
+    {
+      "name": "ckb-dao-vote",
+      "tx_hash": "0xd8cb3f3b109ab35e51cb0c849f2b66159e376e125c6b701d193a6a636eb3247d",
+      "index": 0,
+      "occupied_capacity": 8529400000000,
+      "data_hash": "0x563b5254644ff48fe483123c779e07d0f3ea3642da6c782641c6d2ffe2b72e2c",
+      "type_id": "0x38716b429cb139405d32ff86a916827862b2fa819916894848d8460da8953afb"
+    }
+  ],
+  "dep_group_recipes": []
+}
