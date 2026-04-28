@@ -1,0 +1,57 @@
+{
+  "transaction": {
+    "version": "0x0",
+    "cell_deps": [
+      {
+        "out_point": {
+          "tx_hash": "0x6888aa39ab30c570c2c30d9d5684d3769bf77265a7973211a3c087fe8efbf738",
+          "index": "0x0"
+        },
+        "dep_type": "dep_group"
+      }
+    ],
+    "header_deps": [],
+    "inputs": [
+      {
+        "since": "0x0",
+        "previous_output": {
+          "tx_hash": "0xd8cb3f3b109ab35e51cb0c849f2b66159e376e125c6b701d193a6a636eb3247d",
+          "index": "0x0"
+        }
+      }
+    ],
+    "outputs": [
+      {
+        "capacity": "0x7c1e7d9e760",
+        "lock": {
+          "code_hash": "0x9bd7e06f3ecf4be0f2fcd2188b23f1b9fcc88e5d4b65a8637b17723bbda3cce8",
+          "hash_type": "type",
+          "args": "0xeb56e5ddbbae6dddcdc993a9b091388b5a5469ce"
+        },
+        "type": null
+      }
+    ],
+    "outputs_data": [
+      "0x"
+    ],
+    "witnesses": []
+  },
+  "multisig_configs": {
+    "0xbc2dacbc7659dc2acbcc0efc0b54df808099e888": {
+      "lock_code_hash": "0x36c971b8d41fbd94aabca77dc75e826729ac98447b46f91e00796155dddb0d29",
+      "sighash_addresses": [
+        "ckb1qyqr9lgkcpzxm25722pzrpus9wx55kgh3lkqg0e3xk",
+        "ckb1qyq82pr5u6dmrtvw23fpxga5ttyglxdwkwfqnaqp68",
+        "ckb1qyqryzx4hwkjs9npq79luvremrcdnam7hkksfgwact"
+      ],
+      "require_first_n": 0,
+      "threshold": 2
+    }
+  },
+  "signatures": {
+    "0xbc2dacbc7659dc2acbcc0efc0b54df808099e888": [
+      "0xf124fb31553556c330e629d6e42ac5789dca1fb70402b639508a343567d9672f5c8937d113cc519f5cc54c5fd7919bee01b56523e64ae2cb5110ca630fa25fdb00",
+      "0x5468a86c2bf2f7bfaa981072bb99b2f2d25c93eb6e1a9652249dc5ff473508f54d172cbe51f8ef791322eff865383b67efbfd7508c997102471ede17a61b74a501"
+    ]
+  }
+}
